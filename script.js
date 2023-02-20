@@ -56,7 +56,7 @@ let i = 7;
 while (i <= 22) {
     console.log(i);
     i++;
-}*/
+}
 
 //Задание 4
 
@@ -69,3 +69,24 @@ let obj = {
 for (let salary in obj) {
     console.log(`${salary} - зарплата ${obj[salary]} долларов`);
 }
+
+//Задание 5
+
+let i = 0;
+let n = 1000;
+
+for (n; n > 50; i++) {
+    n /= 2;
+}
+console.log(n);
+console.log(i);
+
+let n = 1000;
+let i = 0;
+
+while (n > 50) {
+    n /= 2;
+    i++;
+}
+console.log(n);
+console.log(i);*/
