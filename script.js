@@ -36,4 +36,24 @@ let i = 1;
 do {
     console.log(i);
     i++;
-} while (i <= 5);*/
+} while (i <= 5);
+
+//Задание 3
+
+for (let i = 7; i <= 22; i++){
+    console.log(i);
+}
+
+let i = 7;
+
+do {
+    console.log(i);
+    i++;
+} while (i < 23);
+
+let i = 7;
+
+while (i <= 22) {
+    console.log(i);
+    i++;
+}*/
