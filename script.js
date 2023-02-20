@@ -1,6 +1,6 @@
 //Задание 1
 
-/*for (let counter = 1; counter <=2; counter++) {
+for (let counter = 1; counter <=2; counter++) {
     console.log('Привет');
 }
 
@@ -89,4 +89,12 @@ while (n > 50) {
     i++;
 }
 console.log(n);
-console.log(i);*/
+console.log(i);
+
+//Задание 6
+
+let firstFriday = 3;
+
+for (firstFriday; firstFriday <= 31; firstFriday += 7) {
+    console.log(`Сегодня пятница, ${firstFriday}-е число. Необходимо подготовить отчет.`);
+}
